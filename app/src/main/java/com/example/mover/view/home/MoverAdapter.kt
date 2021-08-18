@@ -10,7 +10,7 @@ import com.example.mover.databinding.ListItemMoverBinding
 import com.example.mover.model.database.Mover
 
 class MoverAdapter (
-    val viewModel: HomeViewModel
+ val viewModel: HomeViewModel
 ): ListAdapter<Mover, MoverAdapter.MoverViewHolder>(MoverListDiffCallback()) {
 
 
